@@ -1,10 +1,10 @@
 package internal
 
 import (
-	"sql-generator/internal/api"
 	"sql-generator/internal/entity"
 	"sql-generator/internal/mssql"
 	"sql-generator/internal/mysql"
+	"sql-generator/pkg/api"
 )
 
 type SqlBuilder struct{}
